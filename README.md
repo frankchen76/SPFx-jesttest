@@ -1,6 +1,6 @@
-## spfxtest
+## SPFx-jesttest
 
-This is where you include your WebPart documentation.
+This is a project to show how to use jest for unit tests in a SPFx web part project. 
 
 ### Building the code
 
@@ -17,10 +17,6 @@ This package produces the following:
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
 
-### Build options
+### npm options
+npm test - start jest testing. 
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
