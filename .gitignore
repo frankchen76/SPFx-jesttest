@@ -30,3 +30,6 @@ obj
 
 # Styles Generated Code
 *.scss.ts
+private.config.json
+spoapp.config.json
+spouser.config.json
