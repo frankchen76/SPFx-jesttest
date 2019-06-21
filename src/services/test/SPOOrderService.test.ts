@@ -38,7 +38,7 @@ describe('SPOOrderService.test', () => {
         //debugger;
         _iOrderService.getOrders()
             .then(result => {
-                assert(result.length > 0);
+                assert(result.length == 0);
                 done();
             })
             .catch(error => {
